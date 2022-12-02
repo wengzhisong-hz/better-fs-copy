@@ -1,0 +1,1 @@
+cmd_Release/better-fs-copy-native.node := c++ -bundle -undefined dynamic_lookup -Wl,-search_paths_first -mmacosx-version-min=10.7 -arch x86_64 -L./Release -stdlib=libc++  -o Release/better-fs-copy-native.node Release/obj.target/better-fs-copy-native/src/better_fs_copy.o Release/nothing.a 
